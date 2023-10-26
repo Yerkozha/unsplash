@@ -46,7 +46,7 @@ export default createStore<RootState>({
         initialized: false,
         currentLayout: '',
         currentImage: null,
-        favourites: JSON.parse(localStorage.getItem('favourites')?? '') ?? <any>[],
+        favourites: JSON.parse(localStorage.getItem('favourites') ?? "[]" ),
 
     } as RootState,
 
