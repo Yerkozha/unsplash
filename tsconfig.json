@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "declaration": false,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "module": "es6",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "noLib": false,
+      "sourceMap": true,
+      "strict": true,
+      "strictPropertyInitialization": false,
+      "suppressImplicitAnyIndexErrors": true,
+      "target": "es5",
+      "noImplicitThis": false,
+  
+      "paths": {
+        "@t/*": ["@types/*"],
+        "~/*": ["src/*"],
+        "styles/*": ["src/scss/*"],
+        "@i/*": ["src/assets/icons/*"],
+        "@cs/*": ["src/composables/*"],
+        "api/*": ["src/api/*"],
+      },
+    },
+  
+    "exclude": [
+      "./node_modules",
+    ],
+  
+    "include": [
+      "./@types/*.d.ts",
+      "./src/**/*.ts",
+      "./src/**/*.vue",
+    ],
+  }

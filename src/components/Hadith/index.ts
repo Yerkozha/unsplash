@@ -1,0 +1,1 @@
+export { default as Hadith } from './Hadith.vue'

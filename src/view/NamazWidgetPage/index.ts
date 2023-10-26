@@ -1,0 +1,1 @@
+export { default as NamazWidgetPage } from './NamazWidgetPage.vue'
